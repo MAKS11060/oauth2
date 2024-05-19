@@ -1,9 +1,11 @@
 {
-  "name": "@maks11060/tmp",
-  "version": "0.0.1",
+  "name": "@maks11060/oauth2",
+  "version": "0.0.0",
   "lock": false,
   "tasks": {},
-  "imports": {},
+  "imports": {
+    "@std/encoding": "jsr:@std/encoding@^0.224.1"
+  },
   "exports": "./mod.ts",
   "publish": {
     "exclude": [
